@@ -1,0 +1,28 @@
+.sponsors-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px 10px 0px;
+}
+
+.sponsors-all{
+    background-color: grey;
+}
+
+.general-sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sponsors-all img{
+/* background-color: aqua; */
+max-height: 5.375rem;
+}

@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Hero sveiki atvykę į pragarą */
+.hero-area {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    /* background-color: #666666; */
+    padding: 15px 0px 35px 0px;
+}
+
+
+.hero-img {
+    object-fit: fill;
+    height: 100%;
+    width: 28%;    
+}
+/* ---- */
+
+
+
+/* Artimiausios rungtynės */
+.container-games-and-news {
+    display: flex;
+    gap: 30px;
+}
+
+.games-all {
+    /* text-align: center; */
+    border-style: groove;
+    width: 30%;
+    background-color: yellow;
+}
+
+
+
+.title-soon{
+    width: 100%;
+    text-align: center;
+}
+
+.game-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match{
+    display: flex;
+}
+
+.team-first {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.result p{
+    margin-bottom: 0px;
+}
+
+.team-second {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+}
+
+.title-team p{
+    margin-bottom: 0px;
+}
+
+.title-team img{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.place{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.place p{
+    margin-bottom: 0px;
+}
+
+.line{
+    background: green;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+.container-games-and-news{
+    padding-bottom: 54px;
+}
+
+/* ---- */
+
+
+
+/* Visos naujienos */
+
+.news-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-section{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background: pink;
+    width: 70%;
+}
+/* ---- */
+
+/* Naujienos (1) */
+.news{
+    display: flex;
+    background-color: green;
+    width: 100%;
+}
+
+.news-section a{
+    text-decoration: none;
+    color: black;
+}
+
+.opacity-link:hover {
+    opacity: 0.8;
+}
+
+.img-section-news{
+    height: 100%;
+    width: 30%;
+    background-color: #666666;
+}
+
+.img-section-news img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.news-info {
+    width: 70%;
+}
+
+/* ---- */
+
+/* Mygtukas rodyti visus žaidėjus */
+/* .button-all-news a{
+} */
+/* ---- */
+
+
+/* Komanda (karuselė) */
+#team{
+    padding: 30px 0;
+}
+
+.team-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.single-box{
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.info-area{
+    padding: 0 20px 45px;
+}
+
+.img-area{
+    overflow: hidden;
+    padding: 15px 0 15px;
+}
+
+.img-area img{
+    margin: 0 auto;
+    max-width: 230px;
+}
+
+
+.info-area h4{
+    font-weight: 600;
+}
+
+.info-area a{
+    display: inline-block;
+    margin: 25px 0 0;
+    background-color: darkorange;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 4px;
+}
+
+.team-slider .owl-dots{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
+    text-align: center;
+    width: 100%;
+}
+
+.team-slider button.owl-dot{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 6px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #262626!important;
+}
+/* ---- */
+
+/* Mygtukas rodyti visus žaidėjus */
+.button-all-team a{
+    margin-top: 65px;
+}
+/* ---- */
+
+/* Turnyrinė lentelė */
+
+.table-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table img{
+    height: 30px;
+    padding-right: 10px;
+    max-width: 30px;
+}
+
+.last-games{
+    display: flex;
+    height: 30px;
+    width: 100px;
+    gap: 7px;
+}
+
+.last-game-first{
+    margin: auto 0;
+    width: 15px;
+    height: 15px;
+    background-color: green;   
+}
+
+.last-game-second{
+    margin: auto 0;
+    width: 15px;
+    height: 15px;
+    background-color: green;   
+}
+
+.last-game-third{
+    margin: auto 0;
+    width: 15px;
+    height: 15px;
+    background-color: red;   
+}
+
+.last-game-fourth{
+    margin: auto 0;
+    width: 15px;
+    height: 15px;
+    background-color: red;   
+}
+
+.last-game-fifth{
+    margin: auto 0;
+    width: 15px;
+    height: 15px;
+    background-color: green;   
+}
+
+
+/* ---- */
+
+/* Rėmėjai */
+
+.partners-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes slide{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+    overflow: hidden;
+    padding: 60px 0;
+    background: #f2f2f2;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before{
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide{
+    animation-play-state: paused;
+}
+
+.logos-slide{
+    display: inline-block;
+
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img{
+    height: 50px;
+    margin: 0 40px;
+}
+
+/* ---- */

@@ -1,0 +1,176 @@
+/* Header */
+.container-fluid.header{
+    background-color: #333;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+
+.navbar-links {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    /* position: absolute; */
+    /* top: .75rem; */
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-logo img{
+    margin-bottom: 3px;
+}
+/* ---- */
+
+/* Headeris mobile */
+@media (max-width: 800px) {
+    .navbar {
+        /* flex-direction: column; */
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+        border: solid;
+        border-width: 0.1px;
+        border-color: green;
+        border-right-style: none;
+        border-left-style: none;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* ---- */
+
+/* Footeris */
+
+
+
+.footer {
+    display: flex;
+    height: 120px;
+    background: aqua;
+    bottom: 0;
+}
+
+.footer-title {
+    height: 100%;
+    width: 35%;
+    background: aqua;
+}
+
+.footer-title{
+    display: flex;
+}
+
+.footer-logo{
+    width: 50px;
+    height: 100px;
+    display: flex;
+}
+
+.footer-title img{
+    margin: 10px 0px;
+    width: 50px;
+    height: 100%;    
+
+}
+
+.footer-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about p{
+    margin: 0px 0px 0px 15px;
+}
+
+
+
+.footer-info {
+    height: 100%;
+    width: 35%;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer-email p, .footer-number p{
+    margin: 0;
+}
+
+.footer-socials {
+    height: 100%;
+    width: 30%;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* ---- */

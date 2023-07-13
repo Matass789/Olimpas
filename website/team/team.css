@@ -1,0 +1,61 @@
+.team-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px 10px 0px;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    /* gap: 2px; */
+}
+
+.player{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    padding: 0px 15px 15px 0px;
+}
+
+.img-player img{
+    width: 100%;
+    height: auto;
+    max-width: 255px;
+    max-height: 295px;
+    object-fit: contain;
+}
+
+.info-player{
+    width: 50%;
+    background-color: yellow;
+
+}
+
+.name{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.name p{
+    margin: 0px;
+}
+
+.about{
+    /* background-color: pink; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.about p{
+    margin: 0px;
+}
