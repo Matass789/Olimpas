@@ -10,18 +10,18 @@ body {
 
 /* Hero sveiki atvykę į pragarą */
 .hero-area {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     height: 200px;
-    /* background-color: #666666; */
-    padding: 15px 0px 35px 0px;
+    background-color: #666666;
+    padding: 15px 0px 35px 0px; */
 }
 
 
 .hero-img {
-    object-fit: fill;
-    height: 100%;
-    width: 28%;    
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
 }
 /* ---- */
 

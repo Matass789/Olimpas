@@ -6,7 +6,7 @@
 }
 
 .sponsors-all{
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .general-sponsors{
@@ -19,10 +19,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
+.sponsors{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    background-color: pink;
+    display:inline-block;
+}
+
+.partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
 .sponsors-all img{
 /* background-color: aqua; */
-max-height: 5.375rem;
+    max-height: 5.375rem;
+    margin: 0px 25px 40px;
 }
+
