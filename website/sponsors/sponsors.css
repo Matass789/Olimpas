@@ -2,45 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 35px 0px 10px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
-.sponsors-all{
-    /* background-color: grey; */
+.sponsors-all a{
+    text-decoration: none;
 }
 
-.general-sponsors{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-sponsors{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
+.general-sponsors, .main-sponsors, .partners{
+    text-align: center;
+    display:inline-block;
+    width: 100%;
 }
 
 .sponsors{
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    flex-wrap: wrap;
-    background-color: pink;
+    text-align: center;
     display:inline-block;
 }
 
-.partners{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
 .sponsors-all img{
-/* background-color: aqua; */
     max-height: 5.375rem;
     margin: 0px 25px 40px;
 }
