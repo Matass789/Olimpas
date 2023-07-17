@@ -42,15 +42,23 @@ body {
 
 
 
-.title-soon{
+.title-soon h1{
+    font-weight: 400;
+    font-size: 2em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding: 8px 0px 8px 0px;
     width: 100%;
     text-align: center;
 }
 
-.game-data{
+.game-data p{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .match{
@@ -72,6 +80,9 @@ body {
 }
 
 .result p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
     margin-bottom: 0px;
 }
 
@@ -84,6 +95,9 @@ body {
 
 .title-team p{
     margin-bottom: 0px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .title-team img{
@@ -98,6 +112,9 @@ body {
 }
 
 .place p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
     margin-bottom: 0px;
 }
 
@@ -118,17 +135,21 @@ body {
 
 /* Visos naujienos */
 
-.news-title{
+.news-title h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 45px 0 10px;
 }
 
 .news-section{
     display: flex;
     gap: 20px;
     flex-direction: column;
-    background: pink;
     width: 70%;
 }
 /* ---- */
@@ -165,11 +186,24 @@ body {
     width: 70%;
 }
 
+.new-title h4{
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.new-text p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
+}
 /* ---- */
 
-/* Mygtukas rodyti visus žaidėjus */
-/* .button-all-news a{
-} */
+/* Mygtukas rodyti daugiau naujienų */
+.button-all-news .info-area a{
+    font-size: 1em;
+    font-weight: 400;
+}
 /* ---- */
 
 
@@ -178,10 +212,16 @@ body {
     padding: 30px 0;
 }
 
-.team-title{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.team-title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 45px 0 10px;
+
 }
 
 .single-box{
@@ -192,7 +232,7 @@ body {
 }
 
 .info-area{
-    padding: 0 20px 45px;
+    padding: 0 20px 20px;
 }
 
 .img-area{
@@ -208,6 +248,12 @@ body {
 
 .info-area h4{
     font-weight: 600;
+}
+
+.info-area p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.3;
 }
 
 .info-area a{
@@ -243,15 +289,22 @@ body {
 /* Mygtukas rodyti visus žaidėjus */
 .button-all-team a{
     margin-top: 65px;
+    font-size: 1em;
+    font-weight: 400;
 }
 /* ---- */
 
 /* Turnyrinė lentelė */
 
-.table-title{
+.table-title h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 45px 0 10px;
 }
 
 .table img{
@@ -311,6 +364,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 45px 0 10px;
+
 }
 
 @keyframes slide{

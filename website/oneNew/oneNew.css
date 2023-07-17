@@ -29,9 +29,9 @@
 }
 
 .text-news p{
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 400;
     line-height: 1.6;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
 }
 /* ---- */

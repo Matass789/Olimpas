@@ -32,7 +32,9 @@
     display: block;
     text-decoration: none;
     color: white;
-    padding: 1rem;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 16px;
 }
 
 .navbar-links li:hover {
@@ -145,6 +147,8 @@
 
 .footer-about p{
     margin: 0px 0px 0px 15px;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 
@@ -161,6 +165,8 @@
 
 .footer-email p, .footer-number p{
     margin: 0;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .footer-socials {
