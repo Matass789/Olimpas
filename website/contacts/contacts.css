@@ -6,7 +6,6 @@
 
   /* Info ir žemėlapis  */
   .contacts {
-
     margin: 50px 0px 50px 0px;
     display: flex;
     align-items: center;
@@ -17,9 +16,24 @@
     width: 48%;
   }
   .contacts-wrapper-header {
-    text-align: center;
-    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 45px 0 10px;
+
   }
+
+  .contact-header{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+
   .contacts-list {
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +41,6 @@
   }
   .contact {
     background-color: white;
-    /* width: calc((100% - 15px) / 2); */
     width: 100%;
     margin-bottom: 15px;
     padding: 15px;

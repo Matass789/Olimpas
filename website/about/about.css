@@ -1,0 +1,17 @@
+.title-history, .title-team-achievements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    margin: 45px 0 10px;
+
+}
+
+.text-history p, .text-team-achievements p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.6;
+}
