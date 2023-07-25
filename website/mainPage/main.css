@@ -7,17 +7,26 @@ body {
     padding: 0;
 }
 
-
-/* Hero sveiki atvykę į pragarą */
-.hero-area {
-    /* display: flex;
-    justify-content: center;
-    height: 200px;
-    background-color: #666666;
-    padding: 15px 0px 35px 0px; */
+.container-fluid{
+    background-color: #ddede4;
 }
 
+.after-header{
+    height: 50px;
+    position: relative;
+}
 
+.after-header-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/* Hero sveiki atvykę į pragarą */
 .hero-img {
     max-width: 100%;
     height: auto;
@@ -31,13 +40,14 @@ body {
 .container-games-and-news {
     display: flex;
     gap: 30px;
+    background-color: #ddede4;
 }
 
 .games-all {
     /* text-align: center; */
-    border-style: groove;
+    /* border-style: groove; */
     width: 30%;
-    background-color: yellow;
+    background-color: #c5d6cb;
 }
 
 
@@ -50,6 +60,7 @@ body {
     padding: 8px 0px 8px 0px;
     width: 100%;
     text-align: center;
+    background-color: #ddede4;
 }
 
 .game-data p{
@@ -119,7 +130,7 @@ body {
 }
 
 .line{
-    background: green;
+    background: #840f21;
     width: 100%;
     height: 3px;
     margin-bottom: 20px;
@@ -157,7 +168,7 @@ body {
 /* Naujienos (1) */
 .news{
     display: flex;
-    background-color: green;
+    background-color: #c5d6cb;
     width: 100%;
 }
 
@@ -208,8 +219,12 @@ body {
 
 
 /* Komanda (karuselė) */
-#team{
-    padding: 30px 0;
+.testimonial-box{
+    background-color: #ddede4;
+}
+
+.owl-stage{
+    background-color: #ddede4;
 }
 
 .team-title h1{
@@ -220,15 +235,15 @@ body {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: .2em;
-    margin: 45px 0 10px;
-
+    padding: 45px 0 40px;
+    margin: 0;
 }
 
 .single-box{
-    border: 1px solid #ddd;
+    border: 1px solid #c5d6cb;
     border-radius: 20px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #c5d6cb;
 }
 
 .info-area{
@@ -245,6 +260,9 @@ body {
     max-width: 230px;
 }
 
+.info-area.text-center{
+    background-color: #ddede4;
+}
 
 .info-area h4{
     font-weight: 600;
@@ -273,6 +291,7 @@ body {
     bottom: -60px;
     text-align: center;
     width: 100%;
+    background-color: #ddede4;
 }
 
 .team-slider button.owl-dot{
@@ -283,6 +302,10 @@ body {
     text-align: center;
     border-radius: 50%;
     background-color: #262626!important;
+}
+
+.team-title{
+    background-color: #ddede4;
 }
 /* ---- */
 
@@ -295,6 +318,15 @@ body {
 /* ---- */
 
 /* Turnyrinė lentelė */
+table.table{
+    margin: 0;
+}
+
+.table-striped>thead>tr>th,
+.table-striped>tbody>tr>td,
+.table-striped>tbody>tr>th{
+ background-color: #c5d6cb;
+}
 
 .table-title h1{
     display: flex;
@@ -304,7 +336,9 @@ body {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: .2em;
-    margin: 45px 0 10px;
+    padding: 45px 0 10px;
+    margin: 0;
+    background-color: #ddede4;
 }
 
 .table img{
@@ -368,7 +402,8 @@ body {
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: .2em;
-    margin: 45px 0 10px;
+    padding: 45px 0 10px;
+    background-color: #ddede4;
 
 }
 
@@ -384,7 +419,7 @@ body {
 .logos{
     overflow: hidden;
     padding: 60px 0;
-    background: #f2f2f2;
+    background: #c5d6cb;
     white-space: nowrap;
     position: relative;
 }

@@ -1,4 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Naujienos */
+
+.container-fluid {
+    background-color: #ddede4;
+}
+
 .title-all-news{
     display: flex;
     justify-content: center;
@@ -19,12 +34,12 @@
     justify-content: center;
     justify-items: center;
     width: 100%;
-    background-color: aqua;
+    background-color: #c5d6cb;
 }
 
 .news{
     max-height: 410px;
-    background-color: aqua;
+    background-color: #c5d6cb;
     width: 32%;
     padding: 0px 10px 50px 10px;
     margin: auto;

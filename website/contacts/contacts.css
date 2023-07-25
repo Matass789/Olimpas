@@ -1,12 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
 /* Footeris */
 .footer {
   position: fixed;
 }  
 /* ---- */
 
+.container-fluid{
+  background-color: #ddede4;
+}
+
   /* Info ir žemėlapis  */
   .contacts {
-    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,7 +54,7 @@
     justify-content: center;
   }
   .contact {
-    background-color: white;
+    background-color: #c5d6cb;
     width: 100%;
     margin-bottom: 15px;
     padding: 15px;
