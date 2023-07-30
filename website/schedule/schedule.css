@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #ddede4;
+}
+
+/* Tvarkaraštis */
+
+
+
+.table th{
+    text-align: center;
+}
+
+.table td{
+    text-align: center;
+}
+
+table.table{
+    margin: 0;
+}
+
+.table-striped>thead>tr>th,
+.table-striped>tbody>tr>td,
+.table-striped>tbody>tr>th{
+ background-color: #c5d6cb;
+}
+
+.table-title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: 45px 0 40px;
+    margin: 0;
+    background-color: #ddede4;
+}
+
+.table img{
+    height: 30px;
+    margin: 0px 10px 0px 10px;
+    max-width: 30px;
+}
+
+/* ---- */
