@@ -16,11 +16,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 300;
+    /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
     padding: 40px 0px 20px 0px;
+}
+
+.sponsors-all {
+    padding-bottom: 24px;
 }
 
 .sponsors-all a{

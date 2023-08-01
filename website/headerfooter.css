@@ -142,17 +142,13 @@
     display: flex;
     height: 140px;
     background-color: #4b6858;
-    bottom: 0;
 }
 
 .footer-title {
+    display: flex;
     height: 100%;
     width: 35%;
     background-color: #4b6858;
-}
-
-.footer-title{
-    display: flex;
 }
 
 .footer-logo{
@@ -184,6 +180,7 @@
     height: 100%;
     width: 35%;
     background-color: #4b6858;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,6 +202,139 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+/* ---- */
+
+/* Footeris mobile */
+
+@media (min-width: 768px) and (max-width: 5000px) {
+
+    .footer-mobile {
+        display: none;
+    }   
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .footer-info{
+        gap: 0px;
+    }
+}
+
+@media (max-width: 767px){
+    .container-fluid.footer{
+        display: none;
+    }
+
+    .footer-mobile .panel-inside-first:first-child{
+        padding-top: 15px;
+    }
+
+    .footer-mobile .panel-inside-first:last-child{
+        padding-bottom: 15px;
+    }
+
+    .footer-mobile .panel-inside-second:first-child{
+        padding-top: 15px;
+    }
+
+    .footer-mobile .panel-inside-second:last-child{
+        padding-bottom: 0px;
+    }
+
+    .footer-mobile .panel-inside-third:first-child{
+        padding-top: 15px;
+    }
+
+    .footer-mobile .panel-inside-third:last-child{
+        padding-bottom: 15px;
+    }
+
+    .icons {
+    display: flex;
+    gap: 30px;
+    }
+
+    .footer-mobile {
+        background-color: #4b6858;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .container-fluid.footer-mobile{
+        background-color: #4b6858;
+    }
+
+    .footer-mobile .accordion {
+        background-color: #4b6858;
+        color: #ddede4;
+        cursor: pointer;
+        padding: 1px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .footer-mobile .accordion:after {
+        content: '\002B';
+        color: #ddede4;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .footer-mobile .active:after {
+        content: "\2212";
+      }
+      
+      .footer-mobile .panel {
+        padding: 0px 18px;
+        background-color: #4b6858;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        border: none;
+        border-color: #0E1C36;
+        font-style: normal;
+        
+      }
+
+      .panel-inside-first a{
+        color: #ddede4;
+      }
+
+      .panel-inside-first a:hover{
+        color: #a3a2a2;
+      }
+
+      .container-fluid.footer-mobile p{
+        /* font-style: normal; */
+        color: #ddede4;
+    }
+    
+    .footer-mobile button.accordion {
+        margin-top: 8px;
+        border-top-right-radius: 0px;
+        border-color: #0E1C36;
+    }
+}
+
+@media (max-width: 500px) {
+
+    svg.bi.bi-facebook {
+        width: 25px;
+        height: 25px;
+    }
+
+    svg.bi.bi-instagram {
+        width: 25px;
+        height: 25px;
+    }    
+
 }
 
 /* ---- */

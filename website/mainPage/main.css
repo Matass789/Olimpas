@@ -43,9 +43,9 @@ body {
 
 
 
-.title-soon h1{
-    font-weight: 400;
-    font-size: 2em;
+.title-soon{
+    font-weight: 300;
+    /* font-size: 2em; */
     letter-spacing: .2em;
     text-transform: uppercase;
     padding: 0px 0px 10px 0px;
@@ -150,12 +150,12 @@ body {
 
 /* Visos naujienos */
 
-.news-title h1{
+.news-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 300;
+    /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
     margin: 0 0 29px;
@@ -232,12 +232,12 @@ body {
     background-color: #ddede4;
 }
 
-.team-title h1{
+.team-title{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 300;
+    /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
     padding: 45px 0 40px;
@@ -351,12 +351,12 @@ table td:nth-child(4){
  background-color: #c5d6cb;
 }
 
-.table-title h1{
+.table-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 300;
+    /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
     padding: 45px 0 40px;
@@ -417,12 +417,12 @@ table td:nth-child(4){
 
 /* Rėmėjai */
 
-.partners-title h1{
+.partners-title{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 300;
+    /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
     padding: 80px 0 40px;
