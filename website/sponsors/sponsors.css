@@ -13,10 +13,9 @@ body {
 }
 
 .sponsors-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 300;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;;
     /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
@@ -47,3 +46,12 @@ body {
     margin: 0px 25px 40px;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+    .sponsors-all img{
+        max-height: 3rem;
+    }
+
+    .constro, .agotos{
+        width: 8rem;
+    }
+}

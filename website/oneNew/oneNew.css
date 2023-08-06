@@ -31,12 +31,8 @@ body {
 }
 
 .data-news-source p, time{
-    font-size: 1em;
+    /* font-size: 1em; */
     font-weight: 300;
-}
-
-.img-news{
-    background-color: grey;
 }
 
 .img-news img{

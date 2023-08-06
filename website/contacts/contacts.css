@@ -42,7 +42,6 @@ body {
   }
 
   .contact-header{
-    font-size: 2em;
     text-align: center;
     font-weight: 500;
     line-height: 1.6;
@@ -101,6 +100,12 @@ body {
     }
   
 @media (max-width: 600px) {
+
+    .contacts{
+      flex-wrap: wrap-reverse;
+      padding-top: 0px;
+    }
+
     .contacts-wrapper {
        width: 100%;
       } 
@@ -110,7 +115,9 @@ body {
       order: -1;
      }
     .contact {
-      width: calc((100% - 15px) / 2);
+      /* width: calc((100% - 15px) / 2); */
+      width: 100%;
+      margin-bottom: 40px;
       }
     }
 
