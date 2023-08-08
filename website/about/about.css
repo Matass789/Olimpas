@@ -16,6 +16,7 @@ body {
 }
 .title-history, .title-team-achievements{
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-weight: 300;
