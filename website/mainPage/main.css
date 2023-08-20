@@ -73,7 +73,8 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 5px;
+    padding-top: 2px;
+    padding-right: 1px;
 }
 
 .result {
@@ -163,7 +164,8 @@ body {
     /* font-size: 2em; */
     text-transform: uppercase;
     letter-spacing: .2em;
-    margin: 46px 0px 46px 0px;
+    margin: 22px 0px 22px 0px;
+    /* 46 */
 }
 
 .news-title h1{
@@ -237,7 +239,7 @@ body {
 .button-all-news .info-area a{
     /* font-size: 1em; */
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 /* ---- */
 
@@ -516,6 +518,34 @@ table td:nth-child(4){
 
 /* Naujienos */
 
+@media (min-width: 300px) and (max-width: 991px){
+    .news-section{
+        width: 100%;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px){
+    .new-title h4{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 574px){
+    .img-section-news{
+        display: none;
+    }
+
+    .news-info {
+        width: 100%;
+    }
+
+    .new-title h4{
+        font-size: 1em;
+    }
+}
+
+
+
 @media (min-width: 992px) and (max-width: 1070px){
     .news-title {
         margin: 43px 0px 43px 0px;
@@ -528,7 +558,7 @@ table td:nth-child(4){
     }
 }
 
-@media (min-width: 1091px) and (max-width: 1120px){
+@media (min-width: 1091px) and (max-width: 1399px){
     .news-title {
         margin: 45px 0px 45px 0px;
     }
